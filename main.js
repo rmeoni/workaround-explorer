@@ -1,9 +1,9 @@
 // TODO: Add your import statements here.
-import {getRoles, getCompanies} from 'modules/salaryData.js';
+import {getRoles, getCompanies} from './modules/salaryData.js';
 
 import {getAverageSalaryByRole, getAverageSalaryByCompany, getSalaryAtCompany, getIndustryAverageSalary } from './modules/workAroundModule.js'
 
-import {formatNumber} from 'modules/utilities.js'
+import {formatNumber} from './modules/utilities.js'
 
 // TODO: Get the companies and roles using the salaryData module.
 const companies = getCompanies();
